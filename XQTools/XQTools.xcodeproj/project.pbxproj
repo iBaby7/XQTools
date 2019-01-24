@@ -22,6 +22,14 @@
 		1697FCD721F963BA00CEC8D0 /* XQAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCD521F963BA00CEC8D0 /* XQAlert.m */; };
 		1697FCDA21F963DB00CEC8D0 /* XQTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FCD821F963DB00CEC8D0 /* XQTableView.h */; };
 		1697FCDB21F963DB00CEC8D0 /* XQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCD921F963DB00CEC8D0 /* XQTableView.m */; };
+		1697FCE321F96B4E00CEC8D0 /* NSString+XQDecimalNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FCE121F96B4E00CEC8D0 /* NSString+XQDecimalNumber.h */; };
+		1697FCE421F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCE221F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m */; };
+		1697FCE721F96BC600CEC8D0 /* NSString+XQPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FCE521F96BC600CEC8D0 /* NSString+XQPredicate.h */; };
+		1697FCE821F96BC600CEC8D0 /* NSString+XQPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCE621F96BC600CEC8D0 /* NSString+XQPredicate.m */; };
+		1697FCEB21F96C6000CEC8D0 /* NSString+XQFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FCE921F96C6000CEC8D0 /* NSString+XQFormat.h */; };
+		1697FCEC21F96C6000CEC8D0 /* NSString+XQFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCEA21F96C6000CEC8D0 /* NSString+XQFormat.m */; };
+		1697FCEF21F96D2A00CEC8D0 /* NSString+XQSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FCED21F96D2A00CEC8D0 /* NSString+XQSize.h */; };
+		1697FCF021F96D2A00CEC8D0 /* NSString+XQSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCEE21F96D2A00CEC8D0 /* NSString+XQSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,14 @@
 		1697FCD521F963BA00CEC8D0 /* XQAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQAlert.m; sourceTree = "<group>"; };
 		1697FCD821F963DB00CEC8D0 /* XQTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQTableView.h; sourceTree = "<group>"; };
 		1697FCD921F963DB00CEC8D0 /* XQTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQTableView.m; sourceTree = "<group>"; };
+		1697FCE121F96B4E00CEC8D0 /* NSString+XQDecimalNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XQDecimalNumber.h"; sourceTree = "<group>"; };
+		1697FCE221F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XQDecimalNumber.m"; sourceTree = "<group>"; };
+		1697FCE521F96BC600CEC8D0 /* NSString+XQPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XQPredicate.h"; sourceTree = "<group>"; };
+		1697FCE621F96BC600CEC8D0 /* NSString+XQPredicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XQPredicate.m"; sourceTree = "<group>"; };
+		1697FCE921F96C6000CEC8D0 /* NSString+XQFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XQFormat.h"; sourceTree = "<group>"; };
+		1697FCEA21F96C6000CEC8D0 /* NSString+XQFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XQFormat.m"; sourceTree = "<group>"; };
+		1697FCED21F96D2A00CEC8D0 /* NSString+XQSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XQSize.h"; sourceTree = "<group>"; };
+		1697FCEE21F96D2A00CEC8D0 /* NSString+XQSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XQSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +144,7 @@
 		1697FCB921F9606900CEC8D0 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				1697FCE021F96B1600CEC8D0 /* NSString */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -176,6 +193,21 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		1697FCE021F96B1600CEC8D0 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				1697FCE121F96B4E00CEC8D0 /* NSString+XQDecimalNumber.h */,
+				1697FCE221F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m */,
+				1697FCE521F96BC600CEC8D0 /* NSString+XQPredicate.h */,
+				1697FCE621F96BC600CEC8D0 /* NSString+XQPredicate.m */,
+				1697FCE921F96C6000CEC8D0 /* NSString+XQFormat.h */,
+				1697FCEA21F96C6000CEC8D0 /* NSString+XQFormat.m */,
+				1697FCED21F96D2A00CEC8D0 /* NSString+XQSize.h */,
+				1697FCEE21F96D2A00CEC8D0 /* NSString+XQSize.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -183,11 +215,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1697FCE321F96B4E00CEC8D0 /* NSString+XQDecimalNumber.h in Headers */,
+				1697FCE721F96BC600CEC8D0 /* NSString+XQPredicate.h in Headers */,
 				1697FCCB21F9632D00CEC8D0 /* XQLocalize.h in Headers */,
 				1697FCC721F9631D00CEC8D0 /* XQNetwork.h in Headers */,
 				1697FCC321F9617000CEC8D0 /* XQRouter.h in Headers */,
 				1697FCCF21F9633B00CEC8D0 /* XQAnalysis.h in Headers */,
+				1697FCEB21F96C6000CEC8D0 /* NSString+XQFormat.h in Headers */,
 				1697FCBF21F9616000CEC8D0 /* XQCache.h in Headers */,
+				1697FCEF21F96D2A00CEC8D0 /* NSString+XQSize.h in Headers */,
 				1697FC8A21F95ADB00CEC8D0 /* XQTools.h in Headers */,
 				1697FCD621F963BA00CEC8D0 /* XQAlert.h in Headers */,
 				1697FCDA21F963DB00CEC8D0 /* XQTableView.h in Headers */,
@@ -263,11 +299,15 @@
 			files = (
 				1697FCC821F9631D00CEC8D0 /* XQNetwork.m in Sources */,
 				1697FCDB21F963DB00CEC8D0 /* XQTableView.m in Sources */,
+				1697FCE821F96BC600CEC8D0 /* NSString+XQPredicate.m in Sources */,
 				1697FCD721F963BA00CEC8D0 /* XQAlert.m in Sources */,
 				1697FCC021F9616000CEC8D0 /* XQCache.m in Sources */,
+				1697FCEC21F96C6000CEC8D0 /* NSString+XQFormat.m in Sources */,
+				1697FCE421F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m in Sources */,
 				1697FCC421F9617000CEC8D0 /* XQRouter.m in Sources */,
 				1697FCD021F9633B00CEC8D0 /* XQAnalysis.m in Sources */,
 				1697FCCC21F9632D00CEC8D0 /* XQLocalize.m in Sources */,
+				1697FCF021F96D2A00CEC8D0 /* NSString+XQSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
