@@ -42,6 +42,12 @@
 		1697FD0C21F98FE000CEC8D0 /* UIView+XQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0A21F98FE000CEC8D0 /* UIView+XQFrame.m */; };
 		1697FD0F21F98FF400CEC8D0 /* UIView+XQFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD0D21F98FF400CEC8D0 /* UIView+XQFunction.h */; };
 		1697FD1021F98FF400CEC8D0 /* UIView+XQFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0E21F98FF400CEC8D0 /* UIView+XQFunction.m */; };
+		1697FD1321F9944500CEC8D0 /* UIImage+XQImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD1121F9944500CEC8D0 /* UIImage+XQImage.h */; };
+		1697FD1421F9944500CEC8D0 /* UIImage+XQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD1221F9944500CEC8D0 /* UIImage+XQImage.m */; };
+		1697FD1721F9953000CEC8D0 /* NSData+XQBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD1521F9953000CEC8D0 /* NSData+XQBase64.h */; };
+		1697FD1821F9953000CEC8D0 /* NSData+XQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD1621F9953000CEC8D0 /* NSData+XQBase64.m */; };
+		1697FD1B21F9961E00CEC8D0 /* UIColor+XQString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD1921F9961E00CEC8D0 /* UIColor+XQString.h */; };
+		1697FD1C21F9961E00CEC8D0 /* UIColor+XQString.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD1A21F9961E00CEC8D0 /* UIColor+XQString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +89,12 @@
 		1697FD0A21F98FE000CEC8D0 /* UIView+XQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQFrame.m"; sourceTree = "<group>"; };
 		1697FD0D21F98FF400CEC8D0 /* UIView+XQFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XQFunction.h"; sourceTree = "<group>"; };
 		1697FD0E21F98FF400CEC8D0 /* UIView+XQFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQFunction.m"; sourceTree = "<group>"; };
+		1697FD1121F9944500CEC8D0 /* UIImage+XQImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XQImage.h"; sourceTree = "<group>"; };
+		1697FD1221F9944500CEC8D0 /* UIImage+XQImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XQImage.m"; sourceTree = "<group>"; };
+		1697FD1521F9953000CEC8D0 /* NSData+XQBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+XQBase64.h"; sourceTree = "<group>"; };
+		1697FD1621F9953000CEC8D0 /* NSData+XQBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+XQBase64.m"; sourceTree = "<group>"; };
+		1697FD1921F9961E00CEC8D0 /* UIColor+XQString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XQString.h"; sourceTree = "<group>"; };
+		1697FD1A21F9961E00CEC8D0 /* UIColor+XQString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XQString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +265,8 @@
 		1697FCF321F9710400CEC8D0 /* NSData */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD1521F9953000CEC8D0 /* NSData+XQBase64.h */,
+				1697FD1621F9953000CEC8D0 /* NSData+XQBase64.m */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
@@ -260,6 +274,8 @@
 		1697FCF421F9710D00CEC8D0 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD1921F9961E00CEC8D0 /* UIColor+XQString.h */,
+				1697FD1A21F9961E00CEC8D0 /* UIColor+XQString.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -267,6 +283,8 @@
 		1697FCF521F9711300CEC8D0 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD1121F9944500CEC8D0 /* UIImage+XQImage.h */,
+				1697FD1221F9944500CEC8D0 /* UIImage+XQImage.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -312,16 +330,19 @@
 				1697FCCB21F9632D00CEC8D0 /* XQLocalize.h in Headers */,
 				1697FCC721F9631D00CEC8D0 /* XQNetwork.h in Headers */,
 				1697FD0321F9806100CEC8D0 /* NSDictionary+XQDescription.h in Headers */,
+				1697FD1321F9944500CEC8D0 /* UIImage+XQImage.h in Headers */,
 				1697FD0B21F98FE000CEC8D0 /* UIView+XQFrame.h in Headers */,
 				1697FD0F21F98FF400CEC8D0 /* UIView+XQFunction.h in Headers */,
 				1697FD0721F98EDC00CEC8D0 /* UIButton+XQAction.h in Headers */,
 				1697FCC321F9617000CEC8D0 /* XQRouter.h in Headers */,
 				1697FCCF21F9633B00CEC8D0 /* XQAnalysis.h in Headers */,
+				1697FD1721F9953000CEC8D0 /* NSData+XQBase64.h in Headers */,
 				1697FCEB21F96C6000CEC8D0 /* NSString+XQFormat.h in Headers */,
 				1697FCFB21F973AF00CEC8D0 /* NSObject+XQRuntime.h in Headers */,
 				1697FCBF21F9616000CEC8D0 /* XQCache.h in Headers */,
 				1697FCEF21F96D2A00CEC8D0 /* NSString+XQSize.h in Headers */,
 				1697FC8A21F95ADB00CEC8D0 /* XQTools.h in Headers */,
+				1697FD1B21F9961E00CEC8D0 /* UIColor+XQString.h in Headers */,
 				1697FCFF21F9803E00CEC8D0 /* NSArray+XQDescription.h in Headers */,
 				1697FCD621F963BA00CEC8D0 /* XQAlert.h in Headers */,
 				1697FCDA21F963DB00CEC8D0 /* XQTableView.h in Headers */,
@@ -396,15 +417,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1697FCC821F9631D00CEC8D0 /* XQNetwork.m in Sources */,
+				1697FD1C21F9961E00CEC8D0 /* UIColor+XQString.m in Sources */,
 				1697FD0021F9803E00CEC8D0 /* NSArray+XQDescription.m in Sources */,
 				1697FCDB21F963DB00CEC8D0 /* XQTableView.m in Sources */,
 				1697FD1021F98FF400CEC8D0 /* UIView+XQFunction.m in Sources */,
 				1697FD0C21F98FE000CEC8D0 /* UIView+XQFrame.m in Sources */,
 				1697FCE821F96BC600CEC8D0 /* NSString+XQPredicate.m in Sources */,
+				1697FD1821F9953000CEC8D0 /* NSData+XQBase64.m in Sources */,
 				1697FD0421F9806100CEC8D0 /* NSDictionary+XQDescription.m in Sources */,
 				1697FCFC21F973AF00CEC8D0 /* NSObject+XQRuntime.m in Sources */,
 				1697FCD721F963BA00CEC8D0 /* XQAlert.m in Sources */,
 				1697FCC021F9616000CEC8D0 /* XQCache.m in Sources */,
+				1697FD1421F9944500CEC8D0 /* UIImage+XQImage.m in Sources */,
 				1697FD0821F98EDC00CEC8D0 /* UIButton+XQAction.m in Sources */,
 				1697FCEC21F96C6000CEC8D0 /* NSString+XQFormat.m in Sources */,
 				1697FCE421F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m in Sources */,
