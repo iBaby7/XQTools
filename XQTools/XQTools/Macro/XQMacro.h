@@ -9,5 +9,12 @@
 #ifndef XQMacro_h
 #define XQMacro_h
 
+#import "XQMacro+SystemInfo.h"
+#import "XQMacro+Color.h"
+#import "XQMacro+Cache.h"
+#import "XQMacro+Alert.h"
+#import "XQMacro+Notification.h"
+#import "XQMacro+Property.h"
+
 
 #endif /* XQMacro_h */

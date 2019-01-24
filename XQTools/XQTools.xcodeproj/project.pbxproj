@@ -95,6 +95,13 @@
 		1697FD1621F9953000CEC8D0 /* NSData+XQBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+XQBase64.m"; sourceTree = "<group>"; };
 		1697FD1921F9961E00CEC8D0 /* UIColor+XQString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XQString.h"; sourceTree = "<group>"; };
 		1697FD1A21F9961E00CEC8D0 /* UIColor+XQString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XQString.m"; sourceTree = "<group>"; };
+		1697FD1E21F9984E00CEC8D0 /* XQMacro+SystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+SystemInfo.h"; sourceTree = "<group>"; };
+		1697FD1F21F9987900CEC8D0 /* XQMacro+Cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+Cache.h"; sourceTree = "<group>"; };
+		1697FD2021F9988900CEC8D0 /* XQMacro+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+Alert.h"; sourceTree = "<group>"; };
+		1697FD2121F9995600CEC8D0 /* XQMacro+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+Color.h"; sourceTree = "<group>"; };
+		1697FD2221F999B800CEC8D0 /* XQMacro+Notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+Notification.h"; sourceTree = "<group>"; };
+		1697FD2321F99AA800CEC8D0 /* XQMacro+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQMacro+Property.h"; sourceTree = "<group>"; };
+		1697FD2421F99AE200CEC8D0 /* XQCategorys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQCategorys.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +187,7 @@
 		1697FCB921F9606900CEC8D0 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD2421F99AE200CEC8D0 /* XQCategorys.h */,
 				1697FCF821F971B500CEC8D0 /* NSObject */,
 				1697FCF721F9717C00CEC8D0 /* Description */,
 				1697FCF621F9713D00CEC8D0 /* UIButton */,
@@ -214,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				1697FCD121F9634A00CEC8D0 /* XQMacro.h */,
+				1697FD1D21F997F800CEC8D0 /* Macros */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -316,6 +325,19 @@
 				1697FCFA21F973AF00CEC8D0 /* NSObject+XQRuntime.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		1697FD1D21F997F800CEC8D0 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				1697FD1E21F9984E00CEC8D0 /* XQMacro+SystemInfo.h */,
+				1697FD2121F9995600CEC8D0 /* XQMacro+Color.h */,
+				1697FD1F21F9987900CEC8D0 /* XQMacro+Cache.h */,
+				1697FD2021F9988900CEC8D0 /* XQMacro+Alert.h */,
+				1697FD2221F999B800CEC8D0 /* XQMacro+Notification.h */,
+				1697FD2321F99AA800CEC8D0 /* XQMacro+Property.h */,
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
