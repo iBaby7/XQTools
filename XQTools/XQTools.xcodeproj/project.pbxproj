@@ -36,6 +36,12 @@
 		1697FD0021F9803E00CEC8D0 /* NSArray+XQDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FCFE21F9803E00CEC8D0 /* NSArray+XQDescription.m */; };
 		1697FD0321F9806100CEC8D0 /* NSDictionary+XQDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD0121F9806100CEC8D0 /* NSDictionary+XQDescription.h */; };
 		1697FD0421F9806100CEC8D0 /* NSDictionary+XQDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0221F9806100CEC8D0 /* NSDictionary+XQDescription.m */; };
+		1697FD0721F98EDC00CEC8D0 /* UIButton+XQAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD0521F98EDC00CEC8D0 /* UIButton+XQAction.h */; };
+		1697FD0821F98EDC00CEC8D0 /* UIButton+XQAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0621F98EDC00CEC8D0 /* UIButton+XQAction.m */; };
+		1697FD0B21F98FE000CEC8D0 /* UIView+XQFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD0921F98FE000CEC8D0 /* UIView+XQFrame.h */; };
+		1697FD0C21F98FE000CEC8D0 /* UIView+XQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0A21F98FE000CEC8D0 /* UIView+XQFrame.m */; };
+		1697FD0F21F98FF400CEC8D0 /* UIView+XQFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1697FD0D21F98FF400CEC8D0 /* UIView+XQFunction.h */; };
+		1697FD1021F98FF400CEC8D0 /* UIView+XQFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1697FD0E21F98FF400CEC8D0 /* UIView+XQFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +77,12 @@
 		1697FCFE21F9803E00CEC8D0 /* NSArray+XQDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XQDescription.m"; sourceTree = "<group>"; };
 		1697FD0121F9806100CEC8D0 /* NSDictionary+XQDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XQDescription.h"; sourceTree = "<group>"; };
 		1697FD0221F9806100CEC8D0 /* NSDictionary+XQDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XQDescription.m"; sourceTree = "<group>"; };
+		1697FD0521F98EDC00CEC8D0 /* UIButton+XQAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+XQAction.h"; sourceTree = "<group>"; };
+		1697FD0621F98EDC00CEC8D0 /* UIButton+XQAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XQAction.m"; sourceTree = "<group>"; };
+		1697FD0921F98FE000CEC8D0 /* UIView+XQFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XQFrame.h"; sourceTree = "<group>"; };
+		1697FD0A21F98FE000CEC8D0 /* UIView+XQFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQFrame.m"; sourceTree = "<group>"; };
+		1697FD0D21F98FF400CEC8D0 /* UIView+XQFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XQFunction.h"; sourceTree = "<group>"; };
+		1697FD0E21F98FF400CEC8D0 /* UIView+XQFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQFunction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +242,10 @@
 		1697FCF121F970D700CEC8D0 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD0921F98FE000CEC8D0 /* UIView+XQFrame.h */,
+				1697FD0A21F98FE000CEC8D0 /* UIView+XQFrame.m */,
+				1697FD0D21F98FF400CEC8D0 /* UIView+XQFunction.h */,
+				1697FD0E21F98FF400CEC8D0 /* UIView+XQFunction.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -258,6 +274,8 @@
 		1697FCF621F9713D00CEC8D0 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				1697FD0521F98EDC00CEC8D0 /* UIButton+XQAction.h */,
+				1697FD0621F98EDC00CEC8D0 /* UIButton+XQAction.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -294,6 +312,9 @@
 				1697FCCB21F9632D00CEC8D0 /* XQLocalize.h in Headers */,
 				1697FCC721F9631D00CEC8D0 /* XQNetwork.h in Headers */,
 				1697FD0321F9806100CEC8D0 /* NSDictionary+XQDescription.h in Headers */,
+				1697FD0B21F98FE000CEC8D0 /* UIView+XQFrame.h in Headers */,
+				1697FD0F21F98FF400CEC8D0 /* UIView+XQFunction.h in Headers */,
+				1697FD0721F98EDC00CEC8D0 /* UIButton+XQAction.h in Headers */,
 				1697FCC321F9617000CEC8D0 /* XQRouter.h in Headers */,
 				1697FCCF21F9633B00CEC8D0 /* XQAnalysis.h in Headers */,
 				1697FCEB21F96C6000CEC8D0 /* NSString+XQFormat.h in Headers */,
@@ -377,11 +398,14 @@
 				1697FCC821F9631D00CEC8D0 /* XQNetwork.m in Sources */,
 				1697FD0021F9803E00CEC8D0 /* NSArray+XQDescription.m in Sources */,
 				1697FCDB21F963DB00CEC8D0 /* XQTableView.m in Sources */,
+				1697FD1021F98FF400CEC8D0 /* UIView+XQFunction.m in Sources */,
+				1697FD0C21F98FE000CEC8D0 /* UIView+XQFrame.m in Sources */,
 				1697FCE821F96BC600CEC8D0 /* NSString+XQPredicate.m in Sources */,
 				1697FD0421F9806100CEC8D0 /* NSDictionary+XQDescription.m in Sources */,
 				1697FCFC21F973AF00CEC8D0 /* NSObject+XQRuntime.m in Sources */,
 				1697FCD721F963BA00CEC8D0 /* XQAlert.m in Sources */,
 				1697FCC021F9616000CEC8D0 /* XQCache.m in Sources */,
+				1697FD0821F98EDC00CEC8D0 /* UIButton+XQAction.m in Sources */,
 				1697FCEC21F96C6000CEC8D0 /* NSString+XQFormat.m in Sources */,
 				1697FCE421F96B4E00CEC8D0 /* NSString+XQDecimalNumber.m in Sources */,
 				1697FCC421F9617000CEC8D0 /* XQRouter.m in Sources */,
